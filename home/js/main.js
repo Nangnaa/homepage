@@ -40,12 +40,12 @@ $(document).ready(function () {
     $('#fullpage').fullpage({
       menu: '#menu', //anchors메뉴 지정
       anchors: ['main', 'profile', 'skill', 'portfolio', 'contact'], //클릭하면 그페이지이동
-      sectionsColor: ['white', 'white', 'gray', 'yellow','white'],
+      sectionsColor: ['white', 'white', 'gray', 'white','white'],
       autoScrolling: true, //스크롤단위로 넘기기 기본값 true
       slidesNavigation: true,
       loopBottom: true,//스크롤 첫페이지에서 올릴때 맨마지막으로
 
-      afterLoad: function (anchorLink, index) {
+      afterLoad: function (anchorLink, index, direction) {
 
         if (index == 1) {
           $('.firstline').animate({
@@ -60,7 +60,8 @@ $(document).ready(function () {
             },2000,'linear');
         })
         }
-    
+        $(".upani").removeClass("on");
+        $(".upani").addClass("on");
       },
       // onLeave: function (index, nextIndex, direction) {
       // }
