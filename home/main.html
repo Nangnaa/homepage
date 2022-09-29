@@ -8,6 +8,8 @@
   <title>te2</title>
   <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
   <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
 
 </head>
 
@@ -29,8 +31,12 @@
     </ul>
   </div>
   <div id="fullpage">
+    <!-- main -->
     <div class="section">
       <div class="firstsection">
+        <div class="star">
+          <img class="bluestar upani on-1" src="http://itracoon.dothome.co.kr/image/img-particle-blue.png" alt="">
+        </div>
         <div class="firstline easein">
           <img class="maintext item" src="http://itracoon.dothome.co.kr/image/img-main-text-a.png" alt="">
           <img class="mainglass item" src="http://itracoon.dothome.co.kr/image/img-main-glass.png" alt="">
@@ -45,6 +51,10 @@
           <img class="halfcircle item" src="http://itracoon.dothome.co.kr/image/img-main-halfcircle.png" alt="">
           <img class="arrowright item" src="http://itracoon.dothome.co.kr/image/img-main-arrowright.png" alt="">
         </div>
+        <div class="star2">
+          <img class="greenstar upani on-2" src="http://itracoon.dothome.co.kr/image/img-particle-green.png" alt="">
+        </div>
+        
         <div class="thirdline easein">
           <div class="togglegroup">
             <img class="togglebg" src="http://itracoon.dothome.co.kr/image/img-main-toggle-bg.png" alt="">
@@ -55,8 +65,12 @@
             <img class="period item" src="http://itracoon.dothome.co.kr/image/img-main-period.png" alt="">
           </div>
         </div>
+        
+        <div class="star3">
+          <img class="greenstar upani on-3" src="http://itracoon.dothome.co.kr/image/img-particle-yellow.png" alt="">
+        </div>
+        <button class="mouse"><i class="fa-solid fa-computer-mouse"></i></button>
       </div>
-
     </div>
 
     <!-- profile -->
@@ -64,11 +78,37 @@
       <div class="profile">
         <div class="container">
           <div class="profileli">
-            <h1>if(<span id="computer"></span>)</h1>
+            <h1>if( <span class="computer hide0"><img src="./images/computer.png" alt=""></span> )</h1>
+            <img class="profilearrow hide0" src="./images/profilearrow.png" alt="">
+            <img class="company hide0" src="./images/company.png" alt="">
           </div>
           <div class="bottomprofile">
             <div class="myprofile">
-
+              <img src="http://itracoon.dothome.co.kr/image/img-constname.png" alt="">
+              <p>안녕하세요. 웹 퍼블리셔 이청우입니다. <br>
+                <ul>
+                  <li class="upani on-1">저는 끊임없이 발전하고 싶은 개발자입니다.</li>
+                  <li class="upani on-2">팀원들과 협업, 소통하며 맡은 일을 충실히하고 <br> 좋은 결과를 이끌어 낼 수 있습니다.</li>
+                  <li class="upani on-3">문제에 직면했을 때 항상 고민하고 풀어낼 수 있는 끈기를 가지고있습니다.</li>
+                  <li class="upani on-4">유한 성격을 가지고있어 다른 팀원과 큰 트러블 없이 지낼 수있으며 어떤 팀에서라도 잘녹아 내릴 수 있습니다.</li>
+                </ul>
+                
+                </p>
+            </div>
+            <div class="education">
+              <div class="process">프론트엔드 개발자가 되기위한 <br> " <span>원석</span> "입니다</div>
+              <div class="edu">
+                <h2>Education</h2>
+                <p>
+                  <span class="date">2012.03 ~ 2019.02 </span>
+                  <span class="endedu short1">순천대학교 졸업</span>
+                  <span class="date">2021.08 ~ 2021.03</span>
+                  <span class="endedu long">코리아it아카데미학원 수료</span>
+                  <span class="date">2022.08 ~ 2021.09</span>
+                  <span class="endedu short2">아카데미 정글 수료</span>
+                </p>
+                
+              </div>
             </div>
           </div>
         </div>
@@ -76,10 +116,38 @@
     </div>
 
     <!-- skill -->
-    <div class="section">
-      <div class="">
-        <p>if(<span class=""></span>)</p>
-      </div>
+    <div class="section" id="section3">
+      <!-- 배경 -->
+			<div class="wrap-wave">
+				<div class="inner">
+					<!-- 파도의 상단표현 -->
+					<div class="unit">
+						<!-- 파도 애니메이션 -->
+						<div class="wave"></div>
+						<!-- 카운팅되는 텍스트 -->
+						<span class="num">
+							<strong>100</strong>%
+						</span>
+					</div>
+				</div>
+			</div>
+			<!-- 버튼 -->
+			<ul class="wrap-link">
+				<li class="unit upani on-1">
+					<a href="javascript:">html</a>
+				</li>
+				<li class="unit upani on-2">
+					<a href="javascript:">css</a>
+				</li>
+				<li class="unit upani on-3">
+					<a href="javascript:">javascript</a>
+				</li>
+				<li class="unit upani on-4">
+					<a href="javascript:">React</a>
+				</li>
+			</ul>
+
+
     </div>
 
     <!-- portfolio -->
@@ -91,7 +159,7 @@
             <div class="leftimg">
               <img src="http://itracoon.dothome.co.kr/image/img-work-mockup-ebota.png" alt="">
             </div>
-            <div class="rightxt">
+            <div class="rightxt leftani">
               <span class="webpage">
                 ebota 랜딩페이지
               </span>
@@ -101,10 +169,10 @@
               </span>
               <div class="middlebutton">
                 <a href="" target="_blank">
-                    <img src="http://itracoon.dothome.co.kr/image/img-btn-click.png"
-                      onmouseover="changebutton(this)" onmouseout="changebtn(this)" alt="">
+                    <img src="http://itracoon.dothome.co.kr/image/img-btn-click.png" alt="">
                   </a>
               </div>
+              
               
               <hr class="hr">
               <div class="tech">
@@ -130,6 +198,7 @@
         </div>
       </div>
 
+
       <!-- kakao -->
       <div class="slide">
         <div class="slideli">
@@ -137,7 +206,7 @@
             <div class="leftimg">
               <img src="http://itracoon.dothome.co.kr/image/img-work-mockup-kakao.png" alt="">
             </div>
-            <div class="rightxt">
+            <div class="rightxt leftani">
               <span class="webpage">
                 kakao 회원가입페이지
               </span>
@@ -147,8 +216,7 @@
               </span>
               <div class="middlebutton">
                 <a href="" target="_blank">
-                    <img src="http://itracoon.dothome.co.kr/image/img-btn-click.png"
-                      onmouseover="changebutton(this)" onmouseout="changebtn(this)" alt="">
+                    <img src="http://itracoon.dothome.co.kr/image/img-btn-click.png" alt="">
                   </a>
               </div>
               
@@ -183,7 +251,7 @@
             <div class="leftimg">
               <img src="http://itracoon.dothome.co.kr/image/img-work-starbucks.png" alt="">
             </div>
-            <div class="rightxt">
+            <div class="rightxt leftani">
               <span class="webpage">
                 starbucks 메인페이지
               </span>
@@ -193,8 +261,7 @@
               </span>
               <div class="middlebutton">
                 <a href="" target="_blank">
-                    <img src="http://itracoon.dothome.co.kr/image/img-btn-click.png"
-                      onmouseover="changebutton(this)" onmouseout="changebtn(this)" alt="">
+                    <img src="http://itracoon.dothome.co.kr/image/img-btn-click.png" alt="">
                   </a>
               </div>
               
@@ -229,7 +296,7 @@
             <div class="leftimg">
               <img src="http://itracoon.dothome.co.kr/image/img-work-cgv.png" alt="">
             </div>
-            <div class="rightxt">
+            <div class="rightxt leftani">
               <span class="webpage">
                 CGV 메인페이지
               </span>
@@ -239,8 +306,7 @@
               </span>
               <div class="middlebutton">
                 <a href="" target="_blank">
-                    <img src="http://itracoon.dothome.co.kr/image/img-btn-click.png"
-                      onmouseover="changebutton(this)" onmouseout="changebtn(this)" alt="">
+                    <img src="http://itracoon.dothome.co.kr/image/img-btn-click.png"alt="">
                   </a>
               </div>
               
@@ -275,7 +341,7 @@
             <div class="leftimg">
               <img src="http://itracoon.dothome.co.kr/image/img-work-todo.png" alt="">
             </div>
-            <div class="rightxt">
+            <div class="rightxt leftani">
               <span class="webpage">
                 To-Do List
               </span>
@@ -285,8 +351,7 @@
               </span>
               <div class="middlebutton">
                 <a href="" target="_blank">
-                    <img src="http://itracoon.dothome.co.kr/image/img-btn-click.png"
-                      onmouseover="changebutton(this)" onmouseout="changebtn(this)" alt="">
+                    <img src="http://itracoon.dothome.co.kr/image/img-btn-click.png" alt="">
                   </a>
               </div>
               
@@ -321,7 +386,7 @@
             <div class="leftimg">
               <img src="http://itracoon.dothome.co.kr/image/img-work-mockup-ebota.png" alt="">
             </div>
-            <div class="rightxt">
+            <div class="rightxt leftani">
               <span class="webpage">
                 ebota 랜딩페이지
               </span>
@@ -331,8 +396,7 @@
               </span>
               <div class="middlebutton">
                 <a href="" target="_blank">
-                    <img src="http://itracoon.dothome.co.kr/image/img-btn-click.png"
-                      onmouseover="changebutton(this)" onmouseout="changebtn(this)" alt="">
+                    <img src="http://itracoon.dothome.co.kr/image/img-btn-click.png" alt="">
                   </a>
               </div>
               
@@ -392,18 +456,6 @@
 
             </div>
           </div>
-          <!-- <form>
-            <div class="unit ani-obj">
-              <span class="infoarray" id="input-1">
-              <span class="line"></span>
-              <label for="input-1">Name</label>
-            </div>
-            <div class="unit ani-obj on-1">
-              <input type="text" id="input-2">
-              <span class="line"></span>
-              <label for="input-2">Email</label>
-            </div>
-          </form> -->
         </div>
       </div>
     </div>

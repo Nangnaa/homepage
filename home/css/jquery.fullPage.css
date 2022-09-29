@@ -67,17 +67,22 @@ html.fp-enabled,
     -ms-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 }
-.fp-controlArrow.fp-prev {
-    left: 15px;
+/* .fp-controlArrow.fp-prev {
+    left: 25px;
     width: 0;
-    border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #fff transparent transparent;
+    height: 100px;
+    background-image: url(http://itracoon.dothome.co.kr/image/angle-left-solid.svg);
+    background-repeat: no-repeat;
+    border: none;
+    border-width: 33.5px 29px 33.5px 0;
+    border-color: transparent #000 transparent transparent;
 }
 .fp-controlArrow.fp-next {
     right: 15px;
-    border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #fff;
-}
+    width: 0;
+    border-width: 33.5px 0 33.5px 29px;
+    border-color: transparent transparent transparent #000;
+} */
 .fp-scrollable {
     overflow: hidden;
     position: relative;
